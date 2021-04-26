@@ -1,0 +1,39 @@
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+.gallery-list {
+    list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * 20px);
+    margin-top: calc(-1 * 20px);
+}
+
+.gallery-item {
+   
+    flex-basis: calc(100% / 3 - 20px);
+    margin-left: 20px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+
+#validation-input {
+    border: 3px solid #bdbdbd;
+  }
+  
+  #validation-input.valid {
+    border-color: #4caf50;
+  }
+  
+  #validation-input.invalid {
+    border-color: #f44336;
+  }
+
+ 
+
