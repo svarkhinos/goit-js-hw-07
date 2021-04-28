@@ -5,16 +5,14 @@ const ingredients = [
     'Помидоры',
     'Зелень',
     'Приправы',
-  ];
+];
 
-  const ingredientsList = document.getElementById('ingredients');
+const ingredientsList = document.getElementById('ingredients');
 
-    const ingredientsItem = ingredients.map(elem => {
-  
+const ingredientsItem = ingredients.map(elem => {
     const elemName = document.createElement('li');
     elemName.textContent = elem;
-   return elemName;
-  });
+    return elemName;
+});
 
- ingredientsList.append(...ingredientsItem);
-
+ingredientsList.append(...ingredientsItem);
