@@ -15,3 +15,5 @@ function onInputBlur(event) {
 function onInputFocus() {
     input.removeAttribute('class');
 }
+
+console.log(input.dataset.length);
